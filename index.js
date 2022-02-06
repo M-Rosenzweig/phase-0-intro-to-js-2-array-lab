@@ -1,7 +1,7 @@
 const cats = [ 'Milo', 'Otis', 'Garfield']
 
-function destructivelyAppendCat(Two) {
-    cats.push (Two)
+function destructivelyAppendCat(larry) {
+    cats.push(larry)
     return cats;
 }
 
@@ -10,8 +10,8 @@ function destructivelyPrependCat(name) {
     return cats;
 }
 
-function destructivelyRemoveLastCat(heimish){
-    cats.pop("heimish");
+function destructivelyRemoveLastCat(Garfield){
+    cats.pop("Garfield");
     return cats;
 }
 
@@ -39,5 +39,5 @@ function removeFirstCat(namesake) {
     let removeFirstCat = [...cats]
     removeFirstCat.shift();
     return removeFirstCat
-    
+    np
 }
